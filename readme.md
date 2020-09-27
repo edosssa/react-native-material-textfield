@@ -41,7 +41,11 @@ Material texfield with consistent behaviour on iOS and Android
 ## Installation
 
 ```bash
-npm install --save react-native-material-textfield
+npm install --save @edosssa/react-native-material-textfield
+```
+
+```bash
+yarn add @edosssa/react-native-material-textfield
 ```
 
 ## Usage
