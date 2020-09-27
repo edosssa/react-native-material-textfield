@@ -685,8 +685,8 @@ export default class TextField extends PureComponent {
       disabledLineType,
     };
 
-    const renderAccessory = () => (
-      <View style={styles.accessory}>{renderLeftAccessory()}</View>
+    const renderAccessory = (fn) => (
+      <View style={styles.accessory}>{fn()}</View>
     );
 
     return (
